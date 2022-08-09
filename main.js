@@ -28,6 +28,8 @@ function decide(player){
         console.log('its a tie')
     
     }
-    else if (player == 1 )
+    else if (player == 1 ){
+        console.log('You won!!')
     }
+    
 }
