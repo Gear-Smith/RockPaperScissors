@@ -1,3 +1,6 @@
+
+//I have no idea what this does anymore.
+
 button= document.querySelectorAll(".buttons")
 button.forEach(element => {
     element.addEventListener('click', playerChoice)
