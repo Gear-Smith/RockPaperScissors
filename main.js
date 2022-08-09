@@ -5,7 +5,7 @@ button= document.querySelectorAll(".buttons")
 button.forEach(element => {
     element.addEventListener('click', playerChoice)
 });
-
+//another change
 function playerChoice(event){
  console.log(event.currentTarget.id)
  decide(event.currentTarget.id)
